@@ -7963,11 +7963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin\\Yu7Admin.csproj",
+      "projectUniqueName": "E:\\code\\netcore\\Yu7\\Yu7Admin\\Yu7Admin.csproj",
       "projectName": "Yu7Admin",
-      "projectPath": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin\\Yu7Admin.csproj",
+      "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin\\Yu7Admin.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin\\obj\\",
+      "outputPath": "E:\\code\\netcore\\Yu7\\Yu7Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7986,11 +7986,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Core\\Yu7Admin.Core.csproj": {
-              "projectPath": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Core\\Yu7Admin.Core.csproj"
+            "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj": {
+              "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj"
             },
-            "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Domain\\Yu7Admin.Domain.csproj": {
-              "projectPath": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Domain\\Yu7Admin.Domain.csproj"
+            "E:\\code\\netcore\\Yu7\\Yu7Admin.Domain\\Yu7Admin.Domain.csproj": {
+              "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Domain\\Yu7Admin.Domain.csproj"
             }
           }
         }

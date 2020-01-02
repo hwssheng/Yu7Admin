@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Domain.Services\\Yu7Admin.Domain.Services.csproj",
+      "projectUniqueName": "E:\\code\\netcore\\Yu7\\Yu7Admin.Domain.Services\\Yu7Admin.Domain.Services.csproj",
       "projectName": "Yu7Admin.Domain.Services",
-      "projectPath": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Domain.Services\\Yu7Admin.Domain.Services.csproj",
+      "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Domain.Services\\Yu7Admin.Domain.Services.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\code\\netcore\\Yu7Admin\\Yu7Admin.Domain.Services\\obj\\",
+      "outputPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Domain.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
