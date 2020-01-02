@@ -1,0 +1,15 @@
+E:\code\netcore\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.deps.json
+E:\code\netcore\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.csprojAssemblyReference.cache
+E:\code\netcore\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfoInputs.cache
+E:\code\netcore\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfo.cs
+E:\code\netcore\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.deps.json
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfoInputs.cache
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfo.cs
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.pdb

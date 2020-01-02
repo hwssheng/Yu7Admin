@@ -1,0 +1,8 @@
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\bin\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.deps.json
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\bin\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.dll
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\bin\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.pdb
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.csprojAssemblyReference.cache
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.AssemblyInfoInputs.cache
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.AssemblyInfo.cs
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.dll
+E:\code\netcore\Yu7Admin\Yu7Admin.Domain.Services\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.Services.pdb
