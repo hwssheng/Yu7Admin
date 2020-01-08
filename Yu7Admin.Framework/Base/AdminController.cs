@@ -12,12 +12,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 
 namespace Yu7Admin.Framework.Base
 {
-    public class AdminController : Controller
+    public class AdminController : BaseController
     {
     }
 }

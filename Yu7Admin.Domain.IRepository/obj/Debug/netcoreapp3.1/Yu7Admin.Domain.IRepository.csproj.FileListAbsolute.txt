@@ -1,0 +1,11 @@
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.csprojAssemblyReference.cache
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.AssemblyInfoInputs.cache
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.AssemblyInfo.cs
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\bin\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.deps.json
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\bin\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.dll
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\bin\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.pdb
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\bin\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\bin\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.csproj.CopyComplete
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.dll
+E:\code\netcore\Yu7\Yu7Admin.Domain.IRepository\obj\Debug\netcoreapp3.1\Yu7Admin.Domain.IRepository.pdb

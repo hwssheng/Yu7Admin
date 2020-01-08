@@ -14,3 +14,14 @@ E:\code\netcore\Yu7Admin\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Fra
 E:\code\netcore\Yu7Admin\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.AssemblyInfo.cs
 E:\code\netcore\Yu7Admin\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.dll
 E:\code\netcore\Yu7Admin\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.pdb
+E:\code\netcore\Yu7\Yu7Admin.Framework\bin\Debug\netcoreapp3.1\Yu7Admin.Framework.deps.json
+E:\code\netcore\Yu7\Yu7Admin.Framework\bin\Debug\netcoreapp3.1\Yu7Admin.Framework.dll
+E:\code\netcore\Yu7\Yu7Admin.Framework\bin\Debug\netcoreapp3.1\Yu7Admin.Framework.pdb
+E:\code\netcore\Yu7\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.AssemblyInfoInputs.cache
+E:\code\netcore\Yu7\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.AssemblyInfo.cs
+E:\code\netcore\Yu7\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.dll
+E:\code\netcore\Yu7\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.pdb
+E:\code\netcore\Yu7\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.csprojAssemblyReference.cache
+E:\code\netcore\Yu7\Yu7Admin.Framework\bin\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7\Yu7Admin.Framework\bin\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7\Yu7Admin.Framework\obj\Debug\netcoreapp3.1\Yu7Admin.Framework.csproj.CopyComplete

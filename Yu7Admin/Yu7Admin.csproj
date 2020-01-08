@@ -16,6 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Autofac.Mvc5" Version="4.0.2" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -29,7 +34,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Yu7Admin.Core\Yu7Admin.Core.csproj" />
-    <ProjectReference Include="..\Yu7Admin.Domain\Yu7Admin.Domain.csproj" />
+    <ProjectReference Include="..\Yu7Admin.Domain.IRepository\Yu7Admin.Domain.IRepository.csproj" />
+    <ProjectReference Include="..\Yu7Admin.Domain.Repository\Yu7Admin.Domain.Repository.csproj" />
+    <ProjectReference Include="..\Yu7Admin.Framework\Yu7Admin.Framework.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +44,10 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Api\" />
   </ItemGroup>
 
 

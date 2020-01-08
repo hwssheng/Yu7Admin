@@ -16,7 +16,7 @@ using System.Web.Mvc;
 
 namespace Yu7Admin.Framework.Base
 {
-    public class WXAppController:Controller
+    public class WXAppController: BaseController
     {
     }
 }

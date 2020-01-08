@@ -4,14 +4,14 @@
     "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj": {}
   },
   "projects": {
-    "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj": {
+    "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj",
-        "projectName": "Yu7Admin.Framework",
-        "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj",
+        "projectUniqueName": "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj",
+        "projectName": "Yu7Admin.Core",
+        "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\obj\\",
+        "outputPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,124 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "pomelo.entityframeworkcore.mysql": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj",
+        "projectName": "Yu7Admin.Framework",
+        "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\Yu7Admin.Framework.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj": {
+                "projectPath": "E:\\code\\netcore\\Yu7\\Yu7Admin.Core\\Yu7Admin.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CacheManager.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.StackExchange.Redis": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.SystemRuntimeCaching": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
             }
           },
           "imports": [

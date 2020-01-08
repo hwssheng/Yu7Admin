@@ -13,3 +13,13 @@ E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.Ass
 E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfo.cs
 E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.dll
 E:\code\netcore\Yu7Admin\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.deps.json
+E:\code\netcore\Yu7\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfoInputs.cache
+E:\code\netcore\Yu7\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.AssemblyInfo.cs
+E:\code\netcore\Yu7\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.dll
+E:\code\netcore\Yu7\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.pdb
+E:\code\netcore\Yu7\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.runtimeconfig.json
+E:\code\netcore\Yu7\Yu7Admin.Core\bin\Debug\netcoreapp3.1\Yu7Admin.Core.runtimeconfig.dev.json
+E:\code\netcore\Yu7\Yu7Admin.Core\obj\Debug\netcoreapp3.1\Yu7Admin.Core.csprojAssemblyReference.cache

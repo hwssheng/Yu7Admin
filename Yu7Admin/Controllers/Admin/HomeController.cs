@@ -3,26 +3,64 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging; 
-using Yu7Admin.Domain.ViewModels; 
+using Microsoft.Extensions.Logging;
+using Yu7Admin.Core;
+using Yu7Admin.Core.Models;
+using Yu7Admin.Core.Utility;
+using Yu7Admin.Domain.IRepository;
+using Yu7Admin.Domain.IRepository.Repository.Yu7;
+using Yu7Admin.Domain.IRepository.ViewModels;
+using Yu7Admin.Framework.Base;
 
 namespace Yu7Admin.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : AdminController
     {
-        private readonly ILogger<HomeController> _logger;
+        public IY7AdminRepository IY7AdminRepository { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IY7AdminRepository _IY7AdminRepository)
         {
-            _logger = logger;
+            IY7AdminRepository = _IY7AdminRepository;
         }
-
-        public IActionResult Index()
+        public void SubmitLogin() {
+            bool isLogin = false;
+            string msg = "";
+            if (Request.Form["token"] == HttpContext.Session.GetString("VerifyCode")) {
+                string pwd = Md5Utility.MD5Hash(Request.Form["password"]);
+                string mobile = Request.Form["mobile"];
+                Y7Admin admin = IY7AdminRepository.Get((a => a.Password == pwd && a.Mobile == mobile));
+                if (admin != null)
+                {
+                    isLogin = true;
+                    admin.AuthKey = VeryfyCodeUtility.CreatePass(32);
+                    admin.ExpireTime = DateTimeUtility.GetTimeStamp(7);
+                    IY7AdminRepository.Update(admin);
+                }
+                else
+                    msg = "密码错误或账号不存在";
+            }
+            else
+                msg = "登录异常";
+            if (isLogin)
+            {
+                urlRedirect("/home/index"); 
+            }
+            else
+                urlMsgRedirect("/home/login",msg,Core.Enums.MsgStatus.error);
+        }
+        public IActionResult Login()
         {
+            string VerifyCode = VeryfyCodeUtility.CreatePass(8);
+            HttpContext.Session.SetString("VerifyCode", VerifyCode);
+            ViewBag.VerifyCode = VerifyCode;
+            bindMsg();
             return View();
         }
-        public IActionResult Login() { 
+        public IActionResult Index()
+        {
             return View();
         }
 
