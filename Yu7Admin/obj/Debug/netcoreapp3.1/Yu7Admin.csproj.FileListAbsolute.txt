@@ -430,6 +430,10 @@ E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\Autofac.Integration.WebApi.
 E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\System.Web.Http.WebHost.dll
+E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\code\netcore\Yu7\Yu7Admin\obj\Debug\netcoreapp3.1\Yu7Admin.MvcApplicationPartsAssemblyInfo.cs
 E:\code\netcore\Yu7\Yu7Admin\obj\Debug\netcoreapp3.1\Yu7Admin.MvcApplicationPartsAssemblyInfo.cache
-E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\CSRedisCore.dll
+E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\SafeObjectPool.dll

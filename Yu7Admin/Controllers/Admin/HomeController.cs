@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
+using CacheManager.Core;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -13,17 +14,19 @@ using Yu7Admin.Core.Utility;
 using Yu7Admin.Domain.IRepository;
 using Yu7Admin.Domain.IRepository.Repository.Yu7;
 using Yu7Admin.Domain.IRepository.ViewModels;
-using Yu7Admin.Framework.Base;
-
+using Yu7Admin.Framework.Base; 
 namespace Yu7Admin.Controllers
 {
     public class HomeController : AdminController
     {
         public IY7AdminRepository IY7AdminRepository { get; set; }
+        public Yu7Admin.Framework.Cache.ICache ICacheManager { get; set; }
+        
 
-        public HomeController(IY7AdminRepository _IY7AdminRepository)
+        public HomeController(IY7AdminRepository _IY7AdminRepository, Yu7Admin.Framework.Cache.ICache _ICacheManager)
         {
             IY7AdminRepository = _IY7AdminRepository;
+            ICacheManager = _ICacheManager;
         }
         public void SubmitLogin() {
             bool isLogin = false;
@@ -38,6 +41,8 @@ namespace Yu7Admin.Controllers
                     admin.AuthKey = VeryfyCodeUtility.CreatePass(32);
                     admin.ExpireTime = DateTimeUtility.GetTimeStamp(7);
                     IY7AdminRepository.Update(admin);
+
+                    ICacheManager.Set("user", admin,100000);
                 }
                 else
                     msg = "密码错误或账号不存在";
@@ -61,6 +66,9 @@ namespace Yu7Admin.Controllers
         }
         public IActionResult Index()
         {
+            bindMsg();
+            Y7Admin admin =  ICacheManager.Get< Y7Admin>("user");
+            ViewBag.admin = admin;
             return View();
         }
 

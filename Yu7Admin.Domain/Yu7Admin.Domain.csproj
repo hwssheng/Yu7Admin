@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IRepository\**" />
+    <EmbeddedResource Remove="IRepository\**" />
+    <None Remove="IRepository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="InternalService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yu7Admin.Core\Yu7Admin.Core.csproj" />
+    <ProjectReference Include="..\Yu7Admin.Domain.IRepository\Yu7Admin.Domain.IRepository.csproj" />
+    <ProjectReference Include="..\Yu7Admin.Framework\Yu7Admin.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

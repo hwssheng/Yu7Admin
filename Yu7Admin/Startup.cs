@@ -44,6 +44,12 @@ namespace Yu7Admin
                 .AsImplementedInterfaces()
                 .PropertiesAutowired()
                 .InstancePerLifetimeScope();
+             
+            builder.RegisterType<RedisCacheManager>()
+                .As<ICache>()
+                .AsImplementedInterfaces()
+                .PropertiesAutowired()
+                .InstancePerLifetimeScope();
 
             //单个类型注册
             //builder.RegisterType<Y7AdminRepository>().As<IY7AdminRepository>().PropertiesAutowired().InstancePerDependency();
@@ -54,7 +60,7 @@ namespace Yu7Admin
             //         new ResolvedParameter(
             //           (pi, ctx) => pi.ParameterType == typeof(string) && pi.Name == "configSectionName",
             //           (pi, ctx) => "sectionName"));
-        } 
+        }
 
         public static Assembly GetAssembly(string assemblyName)
         {

@@ -32,7 +32,7 @@ namespace Yu7Admin.Domain.IRepository
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+
         }
 
         public T Get(Expression<Func<T, bool>> whereLambda)
