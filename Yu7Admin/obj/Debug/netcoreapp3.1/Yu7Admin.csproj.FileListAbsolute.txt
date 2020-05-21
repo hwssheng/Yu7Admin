@@ -437,3 +437,4 @@ E:\code\netcore\Yu7\Yu7Admin\obj\Debug\netcoreapp3.1\Yu7Admin.MvcApplicationPart
 E:\code\netcore\Yu7\Yu7Admin\obj\Debug\netcoreapp3.1\Yu7Admin.MvcApplicationPartsAssemblyInfo.cache
 E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\CSRedisCore.dll
 E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\SafeObjectPool.dll
+E:\code\netcore\Yu7\Yu7Admin\bin\Debug\netcoreapp3.1\Qiniu.dll

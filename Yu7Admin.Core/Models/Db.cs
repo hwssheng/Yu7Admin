@@ -24,7 +24,7 @@ namespace Yu7Admin.Core.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=192.168.99.100;userid=root;pwd=root;port=3306;database=Yu7Admin;sslmode=none", x => x.ServerVersion("8.0.18-mysql"));
+                optionsBuilder.UseMySql("server=192.168.99.102;userid=root;pwd=root;port=3306;database=y7;sslmode=none", x => x.ServerVersion("8.0.18-mysql"));
             }
         }
 
